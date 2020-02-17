@@ -4,3 +4,10 @@
 
 #include "ClassLibrary1.h"
 
+#include "common.h"
+
+void CheckFunction (int a)
+{
+	int b = a+1;
+	printf("%d\n", b);
+}
