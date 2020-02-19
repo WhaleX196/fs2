@@ -1,0 +1,5 @@
+﻿  fs_library.cpp
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(7,1): warning C4273: 'Check_DLL': inconsistent dll linkage
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\Header.h(9,27): message : see previous definition of 'Check_DLL'
+     Creating library C:\Users\123\Documents\1. ╙Ё╘╙ ╚╨╚╥ ╨Є╘\╒юЁ№ъют\Task1\fs_dll\Debug\fs_dll.lib and object C:\Users\123\Documents\1. ╙Ё╘╙ ╚╨╚╥ ╨Є╘\╒юЁ№ъют\Task1\fs_dll\Debug\fs_dll.exp
+  fs_dll.vcxproj -> C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\Debug\fs_dll.dll
