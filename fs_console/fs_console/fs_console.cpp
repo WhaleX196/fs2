@@ -55,6 +55,10 @@ int main()
 
     int n;
 
+    char driveName;
+
+    printf("Please, select one of the drives:\n\n");
+
     for (int x = 0; x < 26; x++) // проходимся циклом по битам
     {
         n = ((dr >> x) & 1); // узнаём значение текущего бита
@@ -65,19 +69,28 @@ int main()
 
             //std::string out = "Диск " + dl + "\n";
 
-            std::cout << "Disk: " << char(65 + x) << "\n" << std::endl;
+            std::cout << "Disk: " << char(65 + x) << std::endl;
         }
     }
 
-    /*const WCHAR* fileName = L"\\\\.\\F:";
+    driveName = cin.get();
+    printf("\n\nSelected drive is: %c \n\n", driveName);
 
-    HANDLE fileHandle = CreateFileW(
-        fileName,
+
+    string fileName = "\\\\.\\" + ((char)(driveName));
+   fileName = fileName + ":";
+   // wstring wide_string = wstring(narrow_string.begin(), narrow_string.end());
+    //const wchar_t* result = wide_string.c_str();
+
+    //const WCHAR* fileName = result;
+
+    HANDLE fileHandle = CreateFileA(
+        fileName.c_str(),
         GENERIC_READ,
         FILE_SHARE_READ | FILE_SHARE_WRITE,
         NULL,
         OPEN_EXISTING,
-        FILE_ATTRIBUTE_NORMAL,
+        0,
         NULL
     );
 
@@ -135,7 +148,7 @@ int main()
     cout << "Clusters per Index Record: " << pBootRecord->clustersPerIndex << endl;
     cout << "Volume serial number: " << pBootRecord->volumeSerialNumber << endl;
 
-    CloseHandle(fileHandle);*/
+    CloseHandle(fileHandle);
 
     return 0;
 
