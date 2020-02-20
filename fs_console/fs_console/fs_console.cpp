@@ -8,7 +8,6 @@
 #include <iostream>
 #include <Windows.h>
 #include <stdio.h>
-
 using namespace std;
 
 int main()
@@ -26,7 +25,6 @@ int main()
     }
 
     DWORD dr = GetLogicalDrives(); // функция возвращает битовую маску
-    //printf("%d\n\n", dr);
 
     int n;
 
@@ -100,16 +98,12 @@ int main()
     {
         perror("Error: ");
     };
-       
-    BOOT_NTFS* BootRecord = reinterpret_cast<BOOT_NTFS*>(dataBuffer);
 
-    //fs_info(fileName, BootRecord);
+    BOOT_NTFS* BootRecord = reinterpret_cast<BOOT_NTFS*>(dataBuffer);
 
     Show_info(BootRecord);
 
     CloseHandle(fileHandle);
 
     return 0;
-         
 }
-

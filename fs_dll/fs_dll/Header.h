@@ -36,17 +36,8 @@ typedef struct _BOOT_NTFS
 
 #pragma pack(pop)
 
+//extern "C" HEADER_API int Check_DLL();
+
 extern "C++" HEADER_API int Check_DLL();
 
 extern "C++" HEADER_API void Show_info(BOOT_NTFS* BootRecord);
-
-//extern "C" MATHLIBRARY_API void fibonacci_init(    const unsigned long long a, const unsigned long long b);
-
-
-//extern "C" MATHLIBRARY_API bool fibonacci_next();
-
-
-//extern "C" MATHLIBRARY_API unsigned long long fibonacci_current();
-
-
-//extern "C" MATHLIBRARY_API unsigned fibonacci_index();
