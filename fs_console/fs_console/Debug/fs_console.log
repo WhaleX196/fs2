@@ -1,3 +1,1 @@
-﻿  fs_console.cpp
-  fs_console.vcxproj -> C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_console\Debug\fs_console.exe
-  Скопировано файлов: 0.
+﻿LINK : fatal error LNK1104: cannot open file 'fs_dll.lib'

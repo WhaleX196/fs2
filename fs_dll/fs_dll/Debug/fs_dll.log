@@ -1,5 +1,21 @@
-﻿  fs_library.cpp
-C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(7,1): warning C4273: 'Check_DLL': inconsistent dll linkage
-C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\Header.h(9,27): message : see previous definition of 'Check_DLL'
-     Creating library C:\Users\123\Documents\1. ╙Ё╘╙ ╚╨╚╥ ╨Є╘\╒юЁ№ъют\Task1\fs_dll\Debug\fs_dll.lib and object C:\Users\123\Documents\1. ╙Ё╘╙ ╚╨╚╥ ╨Є╘\╒юЁ№ъют\Task1\fs_dll\Debug\fs_dll.exp
-  fs_dll.vcxproj -> C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\Debug\fs_dll.dll
+﻿  pch.cpp
+  dllmain.cpp
+  fs_library.cpp
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(13,1): warning C4273: 'Check_DLL': inconsistent dll linkage
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\Header.h(39,29): message : see previous definition of 'Check_DLL'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(18,1): warning C4273: 'Show_info': inconsistent dll linkage
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\Header.h(41,30): message : see previous definition of 'Show_info'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(25,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(25,12): message : consider using '%lld' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(25,12): message : consider using '%I64d' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(26,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(26,12): message : consider using '%lld' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(26,12): message : consider using '%I64d' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(27,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(27,12): message : consider using '%lld' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(27,12): message : consider using '%I64d' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(30,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(30,12): message : consider using '%lld' in the format string
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\fs_library.cpp(30,12): message : consider using '%I64d' in the format string
+  Generating Code...
+C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\dllmain.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\123\Documents\1. УрФУ ИРИТ РтФ\Хорьков\Task1\fs_dll\fs_dll\Debug\vc142.pdb
